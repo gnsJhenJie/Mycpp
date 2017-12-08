@@ -2,8 +2,8 @@
 //  main.cpp
 //  Triangle ind
 //
-//  Created by Student on 2017/10/25.
-//  Copyright 穢 2017撟?TNFSH104. All rights reserved.
+//  Created by gnsJhenJie on 2017/10/25.
+//  Copyright gnsJhenJie. All rights reserved.
 //
 
 #include <iostream>
