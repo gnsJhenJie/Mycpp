@@ -2,8 +2,8 @@
 //  main.cpp
 //  20171011MaxMin
 //
-//  Created by Student on 2017/10/11.
-//  Copyright 穢 2017撟?HsJhenJie. All rights reserved.
+//  Created by gnsJhenJie on 2017/10/11.
+//  Copyright gnsJhenJie. All rights reserved.
 //
 
 #include <iostream>
