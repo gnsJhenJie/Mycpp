@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int main(int argc, const char * argv[]) {
     double sum=0; double avg; int A=0; int B=0; int C=0; int D=0; int E=0; int MAXScore=0; int MAXnumber;
