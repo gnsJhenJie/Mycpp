@@ -11,7 +11,7 @@ int main(){
     cin >>x;
     int tmp=1,strnum=1;
     if (x%2==0){
-        cout <<"This is a X'mas tree"<<endl;
+        cout <<"This is a Xmas tree."<<endl;
         return 0;
     }
     for (int i=1;i<=x;i++){
