@@ -19,4 +19,5 @@ int main(){
         dotnum++;
         strnum-=2;
     }
+    return 0;
 }
