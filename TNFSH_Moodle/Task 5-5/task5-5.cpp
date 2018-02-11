@@ -33,4 +33,5 @@ int main(){
         cout <<n<<endl;
         n++;
     }
+    return 0;
 }
