@@ -13,4 +13,5 @@ int main(){
         cout <<"Sigma("<<xx<<")="<<result<<endl;
         xx--;
     }
+    return 0;
 }
