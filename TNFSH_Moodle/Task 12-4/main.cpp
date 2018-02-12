@@ -1,6 +1,6 @@
 // Moodle!.cpp : Defines the entry point for the console application.
 //
-#include <stdafx.h>
+
 #include <bits/stdc++.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
@@ -24,13 +24,16 @@ int main(int argc, char** argv) {
 	int temp2;
 	//enter
 	for (int person = 0; person < pamt; person++) {
+		sumtemp = 0;
 		for (int subject = 0; subject < samt+1; subject++) {
 			cin >> x;
 			score[person][subject]=x;
 			sumtemp += x;
+			if ((subject == 1) || (subject == 2)) {
+				sumtemp += 2.87*x;
+			}
 		}
 		sumtemp -= score[person][0];
-		score[person][samt+1] = sumtemp;  //person sum
 		if (sumtemp > first) {
 			temp1 = firstnum;
 			temp2 = secondnum;
@@ -51,14 +54,11 @@ int main(int argc, char** argv) {
 			second = sumtemp;
 			third = temp1;
 			sumtemp = 0;
-		}
-		else if (sumtemp > third) {
+		}else if (sumtemp > third) {
 			thirdnum = score[person][0];
+			third = sumtemp;  //3 
 			sumtemp = 0;
-			third = sumtemp;
-			sumtemp = 0;
-		}
-		else {
+		}else {
 			sumtemp = 0;
 		}
 	}
