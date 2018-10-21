@@ -6,7 +6,7 @@
 //  Copyright © 2017年 gnsJhenJie. All rights reserved.
 //
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main(int argc, const char * argv[]) {
     int x; cin >>x; int a[x];
