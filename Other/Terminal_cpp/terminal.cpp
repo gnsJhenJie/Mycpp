@@ -6,7 +6,7 @@
 
 using namespace std;
 int main (){  
-    cout<<"Welcome to use cmd through the c++ file, Enter Command!\n";
+    cout<<"Welcome to use terminal through this c++ tool, Enter Command!\n";
 
     char abc[300];
     while(1){
@@ -14,7 +14,7 @@ int main (){
         system(abc);
         memset( abc, 0, strlen(abc) );
         cin.ignore(INT_MAX,'\n');
-        cout<<"Next Command:\n";
+        cout<<"Enter Next Command:\n";
     }
     
 }
